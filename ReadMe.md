@@ -1,7 +1,7 @@
-HackerRank SQL Exercises
+# HackerRank SQL Exercises
 ---
 
-|   Domain    |  Subdomain | Exercise | SQL Solution |
+| Domain    | Subdomain | Exercise | SQL Solution |
 |:-----------:|:----------:|
 | SQL | SQL | Weather Observation Station 1|
 Weather Observation Station 2
