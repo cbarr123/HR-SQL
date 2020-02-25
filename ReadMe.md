@@ -13,4 +13,8 @@ Weather Observation Station 7
 Weather Observation Station 8
 Weather Observation Station 9
 Weather Observation Station 10
-select city, state from station
+SELECT DISTINCT(CITY) FROM STATION WHERE CITY NOT LIKE '%[a,e,i,o,u]';
+Weather Observation Station 11
+SELECT DISTINCT(CITY) FROM STATION WHERE CITY NOT LIKE '%[a,e,i,o,u]' OR CITY NOT LIKE '[a,e,i,o,u]%';
+Weather Observation Station 12
+SELECT DISTINCT(CITY) FROM STATION WHERE CITY NOT LIKE '%[a,e,i,o,u]' AND CITY NOT LIKE '[a,e,i,o,u]%';
